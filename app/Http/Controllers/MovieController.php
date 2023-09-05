@@ -61,7 +61,7 @@ class MovieController extends Controller
     
         $movies->update();
         return response()->json([
-            'message' => "Category was Updated!!"
+            'message' => "Category was Updated!!!"
         ]);
     }
 }
